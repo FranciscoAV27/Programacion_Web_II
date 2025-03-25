@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida JavaScript</title>
+</head>
+<body>
+    <h1>Práctica de JavaScript</h1>
+    
+    <input type="text" id="nombreUsuario" placeholder="Ingresa tu nombre">
+    
+    <button onclick="mostrarBienvenida()">Continuar</button>
+    
+    <p id="mensajeWeb"></p>
+    
+    <script>
+        function mostrarBienvenida() {
+            let nombre = document.getElementById("nombreUsuario").value;
+            
+            alert(`Hola, ${nombre}, bienvenido a la práctica de JavaScript!`);
+            
+            document.getElementById("mensajeWeb").textContent = `Hola, ${nombre}, bienvenido a la práctica de JavaScript!`;
+            
+            console.log(`Hola, ${nombre}, bienvenido a la práctica de JavaScript!`);
+        }
+    </script>
+</body>
+</html>

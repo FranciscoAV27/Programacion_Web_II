@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Final JavaScript</title>
+    <style>
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Ejercicio Final JavaScript</h1>
+    
+    <h2>Datos de Usuario</h2>
+    <label for="inputNombre">Nombre:</label>
+    <input type="text" id="inputNombre" placeholder="Ingresa tu nombre">
+    
+    <label for="inputEdad" style="display: block; margin-top: 10px;">Edad:</label>
+    <input type="number" id="inputEdad" placeholder="Ingresa tu edad">
+    
+    <button onclick="ejecutarEjercicio()">Procesar Datos</button>
+    
+    <h3>Resultados:</h3>
+    <p id="saludo"></p>
+    <p id="mayoriaEdad"></p>
+    <p>Revisa también la consola del navegador para más información.</p>
+    
+    <script>
+
+        function saludar(nombre) {
+            return `¡Hola, ${nombre}!`;
+        }
+        
+        function esMayorDeEdad(edad) {
+            return edad >= 18;
+        }
+        
+        function ejecutarEjercicio() {
+            
+            const nombre = document.getElementById('inputNombre').value;
+            const edad = parseInt(document.getElementById('inputEdad').value);
+            
+            if (!nombre || isNaN(edad)) {
+                alert('Por favor ingresa ambos valores (nombre y edad)');
+                return;
+            }
+            
+            document.getElementById('saludo').textContent = saludar(nombre);
+            
+            const mayor = esMayorDeEdad(edad);
+            document.getElementById('mayoriaEdad').textContent = 
+                `¿mayor de edad? ${mayor}`;
+            
+            console.log(saludar(nombre));
+            console.log(`Edad: ${edad} años`);
+            console.log(`¿Mayor de edad? ${mayor}`);
+        }
+    </script>
+</body>
+</html>

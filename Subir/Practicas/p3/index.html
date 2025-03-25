@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Variables en JavaScript</title>
+</head>
+<body>
+    <h1>Ejercicio de Variables en JavaScript</h1>
+    
+    <!-- Botón que llama a la función cuando se hace clic -->
+    <button onclick="realizarOperacion()">Ejecutar función</button>
+    
+    <script>
+        // Función que realiza las operaciones solicitadas
+        function realizarOperacion() {
+            // 1. Declaración de variable usando 'let' (ya que su valor cambiará)
+            let numero = 5;  // 'let' permite reasignación
+            
+            // 2. Sumar 10 y reasignamos el valor a la variable
+            numero = numero + 10;  // Ahora numero vale 15
+            
+            // 3. Imprimir el resultado en la consola
+            console.log("El resultado es: " + numero);
+            
+            // Opcional: Alert para ver el resultado en pantalla
+            alert("El resultado es: " + numero);
+        }
+    </script>
+</body>
+</html>

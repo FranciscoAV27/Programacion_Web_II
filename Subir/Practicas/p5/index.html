@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios JavaScript</title>
+    <script>
+        function ejecutarEjercicios() {
+            // Ejercicio 1
+            const ciudad = "Loma Bonita";
+            console.log(`1. Vivo en ${ciudad}`);
+            
+            // Ejercicio 2
+            const edad1 = 21;
+            const edad2 = 19;
+            
+            if (edad1 > edad2) {
+                console.log(`2. La mayor edad es ${edad1}`);
+            } else if (edad2 > edad1) {
+                console.log(`2. La mayor edad es ${edad2}`);
+            } else {
+                console.log("2. Ambas edades son iguales");
+            }
+            
+            // Ejercicio 3
+            const precioProducto = 21.00;
+            const cantidad = 2;
+            const totalPagar = precioProducto * cantidad;
+            console.log(`3. Total a pagar: ${totalPagar.toFixed(2)} pesos`);
+            
+            alert("Ejercicios completados. Revisa la consola para ver los resultados.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejercicios JavaScript</h1>
+    <button onclick="ejecutarEjercicios()">Ejecutar Ejercicios</button>
+    <p>Abre la consola del navegador para ver los resultados.</p>
+</body>
+</html>
