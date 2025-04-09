@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio de Number Properties</h1>
+    <label>Ingresa un número para que este sea analizado: </label>
+    <input type="number" id="valor">
+    <button onclick="analizar()">Ingresar</button>
+    <p id="mensaje"></p>
+    <script>
+        function analizar(){
+            let texto = "";
+            let numero = Number(document.getElementById('valor').value);
+            if (numero < Number.MIN_SAFE_INTEGER){
+                texto += numero + " es menor que Number.MIN_SAFE_INTEGER. \n";
+            }else if(numero > Number.MAX_SAFE_INTEGER){
+                texto += numero + " es mayor que Number.MAX_SAFE_INTEGER. \n";
+            }else{
+                texto += numero + " se encuentra entre Number.MIN_SAFE_INTEGER y Number.MAS_SAFE_INTEGER. \n";
+            }
+
+            if(numero < Number.MIN_VALUE){
+                texto += numero + " es menor que Number.MIN_VALUE. \n";
+            }else{
+                texto += numero + " no es menor que Number.MIN_VALUE. \n";
+            }
+
+            if(Number.isNaN(numero)){
+                texto += "El valor ingresado no es un número (NaN). \n";
+            }else{
+                texto += "El valor ingresado es un número. \n";
+            }
+            document.getElementById('mensaje').innerHTML=texto;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">Mensaje personalizado (String Templates)</h1>
+    <button onclick="mostrarMensaje()">mostrar mensaje</button>
+    <script>
+        let nombre = "Fran";
+        let edad = 21;
+        function mostrarMensaje(){
+            document.getElementById('demo').innerHTML=`Hola ${nombre}, tienes ${edad} años de edad!!.`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display</h2>
+
+<script>
+
+    function Producto (nombre, precio){
+        this.nombre=nombre;
+        this.precio=precio;
+    }
+
+    let p1 = new Producto("gorra", 23);
+    let p2 = new Producto("gafas", 12);
+
+console.log(p1.nombre + " " + p1.precio + "\n" + p2.nombre + " " + p2.precio);
+
+</script>
+
+</body>
+</html>

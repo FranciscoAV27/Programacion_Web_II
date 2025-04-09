@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display</h2>
+
+<script>
+// Create an Object:
+const aguila = 
+    {
+        nombre:"Águila",  
+        edadEnAnos:1, 
+        colorDeOjos:"azul",
+        color:"blanco" ,
+        tipo :"aereo"
+    };
+
+    mostrar = function (){
+        let valores = "";
+        for (let x in aguila){
+            valores = valores + " " + aguila[x];
+        }
+        return valores;
+    }
+
+// Display Data from the Object:
+/*document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";*/
+console.log(mostrar());
+
+</script>
+
+</body>
+</html>

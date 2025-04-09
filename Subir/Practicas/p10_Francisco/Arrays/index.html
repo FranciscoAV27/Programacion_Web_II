@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios de Arrays</h1>
+    <p>Revisar la consola para ver los resultados</p>
+    <script>
+        const numeros = [1, 2, 3, 4, 5];
+        let longitud = numeros.length;
+        let suma = 0;
+        for(let x in numeros){
+            suma += numeros[x];
+        }
+        console.log("Array original: "+ numeros.toString());
+        console.log("Primer número: " + numeros[0]);
+        console.log("Último número: " + numeros[longitud-1]);
+        console.log("suma total de los elementos del arreglo: " + suma);
+        console.log("Número a agregar: 6");
+        numeros.push(6);
+        console.log("Array actualizado: " + numeros.toString());
+    </script>
+</body>
+</html>
