@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios de Arrays</h1>
+    <p>Mirar la consola para ver los resultados</p>
+    <label>Ingresa el nombre de un estudiante: </label>
+    <input type="text" id="nombreABuscar">
+    <button onclick="buscar()">Buscar Alumno</button>
+
+    <script>
+        const estudiantes = ["Valentino", "Andres", "Antonio", "Vianey", "Bere"];
+        const estudiantesOrdenados = estudiantes.toSorted();
+        console.log("Estudiantes: " + estudiantes.join(", "));
+        console.log("Estudiantes ordenados: " + estudiantesOrdenados);
+
+
+        function buscar(){
+            let nombre = document.getElementById('nombreABuscar').value;
+            if(estudiantes.includes(nombre)){
+                console.log(`El estudiante ${nombre} está en la lista`);
+            }else{
+                console.log(`El estudiante ${nombre} no está en la lista`);
+            }
+        }
+    </script>
+</body>
+</html>

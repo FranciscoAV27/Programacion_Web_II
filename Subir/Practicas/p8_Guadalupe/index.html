@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios con cadenas</h1></h1>
+    <label>Ingresa un nombre: </label>
+    <input id="nombre" type="text">
+    <button onclick="ejecutar()">Iniciar</button>
+    <br>
+    <p id="resultado"></p>
+    <script>
+        function ejecutar(){
+            let nombre = document.getElementById('nombre').value;
+            nombre = nombre.toUpperCase();
+            let text = "HOLA " + nombre + ", TU NOMBRE ";
+            if(nombre.indexOf("E")>=0){
+                text += "CONTIENE LA LETRA 'E', ";
+            }else{
+                text += "NO CONTIENE LA LETRA 'E', ";
+            }
+            text += `Y EMPIEZA CON LA LETRA "${nombre.charAt(0)}".`;
+            document.getElementById('resultado').innerHTML = text;
+        }
+    </script>
+</body>
+</html>
