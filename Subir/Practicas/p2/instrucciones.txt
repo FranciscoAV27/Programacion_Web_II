@@ -1,0 +1,16 @@
+EJERCICIO 1:
+ Crea un programa que realice lo siguiente:
+ • Pregunta al usuario su nombre mediante un cuadro de texto.
+ • Muestra un mensaje personalizado en una alerta que diga:
+ "Hola, "nombre", bienvenido a la práctica de JavaScript!"
+ • Además, imprime el mensaje en el documento web y en la consola del navegador.
+
+ EJERCICIO 2:
+ En el siguiente código hay varios errores de sintaxis. Tu tarea es corregirlos para que funcione 
+correctamente. Una vez corregido, el programa debería mostrar un mensaje con el resultado de una 
+operación matemática en la consola.
+ let numero1 = 10
+ let numero2 = 5
+ if numero1 + numero2 = 15 {
+ 	console.log("El resultado es: " numero1 + numero2)
+ }
