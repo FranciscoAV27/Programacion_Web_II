@@ -1,0 +1,11 @@
+1.- Crea un script en HTML que realice lo siguiente:
+ Declara una variable llamada numero usando la variable
+ correspondiente (var, let o const) y asígnale el valor 5.
+ Suma 10 a numero (reasignaras a la variable numero).
+ Imprime en la consola un mensaje que diga: "El resultado es:
+ " numero.
+ Usa comentarios para explicar la función de cada línea de
+ código.
+
+ 2.- Usa un botón que llame a la función cuando se haga clic.
+ Verifica en la consola de tu pagina si es correcto.
