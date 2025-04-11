@@ -1,0 +1,8 @@
+Crea un objeto que se 
+llame como tu animal 
+favorito, dale 4
+ propiedades y 1 método.
+ Usa 
+console.log( ) para 
+mostrar una propiedad y 
+ejecutar el método
