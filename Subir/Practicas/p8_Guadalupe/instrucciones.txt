@@ -1,0 +1,8 @@
+Crea una función que reciba un nombre como parámetro y
+ haga lo siguiente:
+ Convierta el nombre a mayúsculas. 1.
+ Verifique si el nombre contiene la letra "E" . 2.
+ Obtenga la primera letra del nombre. 3.
+ Devuelva un mensaje del tipo: 4.
+        "HOLA, [NOMBRE]. TU NOMBRE CONTIENE LA LETRA
+ E: [true/false]. EMPIEZA CON: [letra]
