@@ -1,0 +1,8 @@
+//Ejercicio de JS Object Display
+//Crea un objeto y muestra sus propiedades en la consola o en la página HTML.
+
+//Ejercicio de JS Object Constructors
+//Usa una función constructora para crear múltiples objetos similares.
+
+//JavaScript Events
+//Crea una página con un botón que cambie el texto al hacer clic.
