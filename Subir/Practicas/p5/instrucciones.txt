@@ -1,0 +1,6 @@
+Instrucciones:
+ Crea una variable nombre (String) y edad (Number).
+ Crea una función saludar(nombre) que retorne un saludo.
+ Crea una función esMayorDeEdad(edad) que devuelva true si la
+ edad es mayor a 18, false si no.
+ Muestra los resultados en la consola
