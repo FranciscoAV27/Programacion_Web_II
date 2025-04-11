@@ -1,0 +1,13 @@
+1.Crea una función llamada saludoPersonalizado que tome dos parámetros:
+ nombre y edad. La función debe devolver un string que diga:
+ "Hola [nombre], tienes [edad] años."
+ Usa template strings para formatear el mensaje.
+
+2. Escribe una función llamada esPar que tome un número como argumento y
+ devuelva true si es par y false si es impar. Usa operaciones matemáticas
+ básicas con números.
+
+3. Crea dos variables usando BigInt:
+ numeroGrande con el valor 9007199254740991n (el número más grande
+ que no puede manejarse con Number en JavaScript).
+ otroNumeroGrande con el valor 10000000000000000n.
