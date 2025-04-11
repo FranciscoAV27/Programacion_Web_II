@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio: cambio de color de nombre, y cambio de imagen.</h1>
+    <p id="info" style="color: green;">Mob: creeper</p>
+    <button onclick="cambiar()">Cambiar</button>
+    <button onclick="revertir()">Revertir</button>
+    <img id="creeper" src="minecraft-creeper-a8lMmZA-600.jpg" width="25%" height="25%">
+    <script>
+        function cambiar(){
+            document.getElementById('info').style.color = 'red';
+            document.getElementById('creeper').src = '7i.webp';
+        }
+        function revertir(){
+            document.getElementById('info').style.color = 'green';
+            document.getElementById('creeper').src = 'minecraft-creeper-a8lMmZA-600.jpg';
+        }
+    </script>
+</body>
+</html>

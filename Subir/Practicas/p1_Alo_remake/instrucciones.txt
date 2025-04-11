@@ -1,0 +1,3 @@
+Hacer un script que debe incluir: la función 'cambiar' en la cual iban a cambiar el color de su nombre y la foto que pusieron en su curriculum, además la función 'revertir' que hace que su foto y color de letra quede como la tenían incialmente.
+Estas funciones las iban a llamar a través de los botones "revertir" "cambiar".
+Preferí no incluir el curriculum, en su lugar creé un HTML nuevo.
