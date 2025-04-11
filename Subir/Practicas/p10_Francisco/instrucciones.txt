@@ -1,0 +1,15 @@
+1.Declara un número.
+ Muestra en la consola:
+ Si es entero o no (Number.isInteger()).
+ El valor redondeado a 2 decimales (toFixed(2)).
+ Notación científica con 3 dígitos (toExponential(3)).
+
+2. Crea un programa que reciba un número del usuario y determine si:
+ Es mayor que Number.MAX_SAFE_INTEGER o menor que Number.MIN_SAFE_INTEGER.
+ Es más pequeño que Number.MIN_VALUE.
+ Es un número válido o NaN (no numérico).
+
+3.Defina un array con 5 números enteros.
+ Muestre el primer y el último número del array.
+ Calcule la suma de todos los números.
+ Agregue un nuevo número al final del array y lo muestre actualizado
