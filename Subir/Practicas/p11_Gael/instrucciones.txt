@@ -1,0 +1,8 @@
+ Crea un programa en JavaScript que haga lo siguiente:
+ Tenga un arreglo con al menos 5 nombres de estudiantes.
+ Muestra todos los nombres en una sola línea separados por comas (ya sea en la consola o en un párrafo)
+ Pregunta al usuario por el nombre de un estudiante y revisa si está en la lista 
+ Si el nombre está, muestra un mensaje que diga "El estudiante está en la lista".
+ Si no está, muestra "El estudiante no está en la lista".
+ Ordena alfabéticamente los nombres en el arreglo 
+ Muestra (ya sea en la consola o en un párrafo) la lista de nombres ordenada.
