@@ -1,0 +1,16 @@
+1. const (Declaración de Constantes)
+ Ejercicio:
+ Declara una constante llamada ciudad y asígnale el nombre de tu ciudad. Luego, muestra un mensaje en 
+consola que diga:
+ "Vivo en [nombre de la ciudad]"
+
+ 2. Operadores
+ Ejercicio:
+ Crea dos constantes llamadas edad1 y edad2. Compara cuál es mayor usando el operador > y muestra 
+en consola un mensaje que indique cuál es la mayor edad o si son iguales.
+
+ 3. Operadores Aritméticos
+ Ejercicio:
+ Declara dos constantes precioProducto y cantidad. Calcula el total a pagar multiplicando estos valores 
+y muestra el resultado en consola:
+ "Total a pagar: [resultado]"
